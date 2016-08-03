@@ -116,8 +116,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="add_edit_employee.html">
-                            Add Employee
+                        <a href="edit_database.html">
+                            Edit Database
                         </a>
                     </li>
                 </ul>
@@ -128,7 +128,7 @@
                 </a>
                 <ul class="dropdown-menu dropdown-alerts">
                     <li>
-                        <a href="#">
+                        <a href="request_history.html">
                             <div>
                                 <i class="fa fa-bell fa-fw"></i> Leave request - John Smith
                                 <span class="pull-right text-muted small">4 minutes ago</span>
@@ -136,7 +136,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="request_history.html">
                             <div>
                                 <i class="fa fa-bell fa-fw"></i>  Leave request - Ana Brown
                                 <span class="pull-right text-muted small">4 minutes ago</span>
@@ -147,7 +147,7 @@
                     <li class="divider"></li>
                     <li>
                         <a class="text-center" href="manager_home.html">
-                            <strong>See All Alerts</strong>
+                            <strong>See All Requests</strong>
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </li>
@@ -160,9 +160,7 @@
                     <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
-                    <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    <li><a href="request_history.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
                     </li>
                     <li class="divider"></li>
                     <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -249,7 +247,8 @@
                                     <th>Employee</th>
                                     <th>Job Title</th>
                                     <th>Department</th>
-                                    <th>Dates from/to</th>
+                                    <th>Date from</th>
+                                    <th>Date to</th>
                                     <th>Total</th>
                                     <th>Days left</th>
                                     <th>Type of leave</th>
@@ -263,7 +262,8 @@
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
@@ -277,756 +277,810 @@
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeX">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident Smith</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
                                     <td>Trident</td>
                                     <td>Internet Techician</td>
                                     <td>IT</td>
-                                    <td>12/12/2016 - 14/12/216</td>
+                                    <td>12/12/2016</td>
+                                    <td>14/12/216</td>
                                     <td>2</td>
                                     <td>20</td>
                                     <td class="center">paid leave</td>
                                     <td class="center">X</td>
                                     <td class="center">
-                                        <button class="btn btn-success btn-sm"></bu><i class="fa fa-check"></i></button>
-                                        <button class="btn btn-danger btn-sm"></bu><i class="fa fa-remove"></i></button>
+                                        <button class="btn btn-success btn-sm"><i class="fa fa-check"></i></button>
+                                        <button class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></button>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -1060,41 +1114,24 @@
 <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
 <script src="../bower_components/datatables-responsive/js/dataTables.responsive.js"></script>
 
+
 <!-- Custom Theme JavaScript -->
 <script src="../dist/js/sb-admin-2.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Page-Level Demo Scripts - Tables - Use for reference -->
+<script>
+    $(document).ready(function() {
+        $('#dataTables-example1').DataTable({
+            responsive: true
+        });
+    });
+</script>
 
 <!-- Morris Charts JavaScript -->
 <script src="../bower_components/raphael/raphael-min.js"></script>
 <script src="../bower_components/morrisjs/morris.min.js"></script>
 <script src="../js/morris-data.js"></script>
 
-<!-- jQuery -->
-<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<!-- Metis Menu Plugin JavaScript -->
-<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="../dist/js/sb-admin-2.js"></script>
-
-
-<!-- Page-Level Demo Scripts - Tables - Use for reference -->
-<script>
-    $(document).ready(function () {
-        $('#dataTables-example').DataTable({
-            responsive: true
-        });
-        $('#dataTables-example1').DataTable({
-            responsive: true
-        });
-    });
-</script>
 
 </body>
 
